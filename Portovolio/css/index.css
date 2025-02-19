@@ -1,0 +1,25 @@
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #000000;
+  }
+  body {
+    background-color: #fafafa; /* Change this to your desired color */
+}
+.project-card img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
