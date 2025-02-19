@@ -23,3 +23,23 @@ img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+.skill-block {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem; /* Increase font size */
+}
+.skill-block:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+}
